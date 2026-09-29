@@ -1,6 +1,7 @@
-a=10
-b=10.5
-c=2+3j
-print("integer:",a)
-print("float:",b)
-print("complex:",c)
+n=input("enter the number:")
+if "j" in n:
+  print("complex")
+  elif"." in n :
+    print(float")
+          else:
+    print("integer")
